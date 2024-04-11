@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f6e8d1;
+    padding: 0.5vw;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    column-gap: 2rem;
+}
+
+.header-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header-navigation {
+    padding: auto;
+}
+
+.header-navigation nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 5vw;
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+.header-navigation li {
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    text-decoration: none;
+    color: #3F1B11;
+    font-size: 2vw;
+}
+
+.header-navigation li a:hover {
+    color: #C2581F;
+}
+
+.header-cta {
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+.header-cta .button {
+    background-color: #C2581F;
+    color: #fff;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2vw;
+    transition: background-color 0.3s ease;
+}
+
+.header-cta .button:hover {
+    background-color: #3F1B11;
+}
+
+.hero {
+    background-image: url('/images/page1.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    width: auto;
+    text-align: left;
+    color: #fff;
+}
+
+.hero-content {
+    padding: 2vw;
+    padding-top: 18vw;
+    color: #f6e8d1;
+}
+
+.hero-content h1 {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+
+.hero-content p {
+    font-size: 2vw;
+    margin-bottom: 4vw;
+}
+
+.btn-explore {
+    padding: 1.5vw 3vw;
+    background-color: #C2581F; 
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5vw;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+    background-color: #f6e8d1;
+    color: #3F1B11;
+}
+
+.featured-items {
+    background-color: #f6e8d1;
+    padding: 2vw;
+}
+
+.featured-items-title {
+    text-align: center;
+    margin-bottom: 2.5vw;
+    font-size: 2vw;
+    color: #3F1B11;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 3vw;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2vw;
+}
+
+.item-name {
+    font-size: 1.7vw;
+    color: #3F1B11;
+    margin-bottom: 1.5vw;
+}
+
+.item-description {
+    font-size: 1.4vw;
+    color: #3F1B11;
+    margin-bottom: 3vw;
+    text-align: justify;
+}
+
+.item-btn {
+    background-color: #C2581F;
+    font-size: 1.6vw;
+    color: #fff;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.item-btn:hover {
+    background-color: #3F1B11;
+}
+
+.newsletter {
+    background-color: #3F1B11;
+    padding: 5vw 0;
+}
+
+.newsletter-container {
+    text-align: center;
+}
+
+.newsletter-container h2 {
+    font-size: 2vw;
+    color: #f6e8d1;
+    margin-bottom: 2vw;
+}
+
+.newsletter-container p {
+    font-size: 1.5vw;
+    color: #f6e8d1;
+    margin-bottom: 2vw;
+}
+
+.newsletter-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter-form input[type="email"] { 
+    width: 100%;
+    padding: 1vw;
+    font-size: 1.2vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1vw;
+}
+
+.newsletter-form button {
+    width: 50%;
+    padding: 1vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #C2581F;
+    color: #fff;
+    font-size: 1.2vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #f6e8d1;
+    color: #3F1B11;
+}
+
+.footer {
+    background-color: #f6e8d1;
+    padding: 2vw 0;
+    text-align: center;
+}
+
+.social-links {
+    margin-bottom: 1.5vw;
+}
+
+.social-link {
+    margin: 0 1vw;
+    font-size: 1.3vw;
+    color: #3F1B11;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #C2581F;
+}
+
+.copyright {
+    color: #3F1B11;
+    font-size: 1.1vw;
+    margin-bottom: 1vw;
+}
+
+.legal-links a {
+    color: #3F1B11;
+    text-decoration: none;
+    margin: 0 1vw;
+    font-size: 1.1vw;
+}
+
+.legal-links a:hover {
+    color: #C2581F;
+}
+
+@media screen and (max-width: 680px) {
+
+    .header-container {
+        column-gap: 1rem;
+    }
+
+    .header-navigation nav {
+        column-gap: 2.5vw;
+    }
+
+    .newsletter-form {
+        max-width: 200px;
+    }
+
+}

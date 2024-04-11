@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #f6e8d1;
+    padding: 0.5vw;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    column-gap: 2rem;
+}
+
+.header-logo img {
+    width: 100%;
+    height: auto;
+}
+
+.header-navigation {
+    padding: auto;
+}
+
+.header-navigation nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 5vw;
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+.header-navigation li {
+    list-style-type: none;
+}
+
+.header-navigation li a {
+    text-decoration: none;
+    color: #3F1B11;
+    font-size: 2vw;
+}
+
+.header-navigation li a:hover {
+    color: #C2581F;
+}
+
+.header-cta {
+    padding-top: 4vw;
+    padding-left: 5vw;
+}
+
+.header-cta .button {
+    background-color: #C2581F;
+    color: #fff;
+    padding: 1vw 2vw;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2vw;
+    transition: background-color 0.3s ease;
+}
+
+.header-cta .button:hover {
+    background-color: #3F1B11;
+}
+
+.menu {
+    background-color: #3F1B11;
+    padding: 2.5vw 0;
+    text-align: center;
+}
+
+.menu-title {
+    font-size: 2vw;
+    color: #f6e8d1;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3vw;
+    margin-top: 3vw;
+}
+
+.menu-item {
+    background-color: #f6e8d1;
+    border-radius: 10px;
+    padding: 2vw;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1.5vw;
+}
+
+.menu-item h3 {
+    font-size: 1.7vw;
+    color: #3F1B11;
+    margin-bottom: 1vw;
+}
+
+.menu-item p {
+    font-size: 1.4vw;
+    text-align: justify;
+    color: #3F1B11;
+    margin-bottom: 1.5vw;
+}
+
+.menu-item .price {
+    display: block;
+    font-size: 18px;
+    color: #C2581F;
+}
+
+.menu-cta {
+    margin: 2vw 6vw 1vw;
+    padding: 1vw;
+    background-color: #C2581F; 
+    font-size: 1.5vw;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-cta .button {
+    color: #f6e8d1;
+    text-decoration: none;
+}
+
+.menu-cta:hover {
+    background-color: #3F1B11;
+}
+
+@media screen {
+    
+}
