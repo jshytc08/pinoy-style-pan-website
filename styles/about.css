@@ -30,7 +30,7 @@ body {
 }
 
 .header-navigation nav {
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto auto auto auto;
     column-gap: 5vw;
     padding-top: 4vw;
@@ -109,6 +109,13 @@ body {
     text-align: justify;
 }
 
-@media screen {
+@media screen and (max-width: 680px) {
     
+    .header-container {
+        column-gap: 1rem;
+    }
+
+    .header-navigation nav {
+        column-gap: 2.5vw;
+    }
 }
