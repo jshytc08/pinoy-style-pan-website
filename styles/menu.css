@@ -149,4 +149,16 @@ body {
     .header-navigation nav {
         column-gap: 2.5vw;
     }
+
+    .menu-cta {
+        max-width: 10vw;
+        margin-left: 16vw;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    
+    .menu-cta {
+        margin-left: 40vw;
+    }
 }
