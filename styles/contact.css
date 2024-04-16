@@ -78,9 +78,9 @@ body {
 }
 
 .contact-container {
-    max-width: 800px;
+    max-width: 40vw;
     margin: 0 auto;
-    padding: 0 2vw;
+    padding: 0 auto;
 }
 
 .contact-title h2 {
@@ -111,10 +111,12 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 10px;
+    padding: 1vw;
     border: 1px solid #f6e8d1;
     border-radius: 5px;
     background-color: #f6e8d1;
+    font-size: 1.3vw;
+    text-align: justify;
 }
 
 textarea {
@@ -124,12 +126,12 @@ textarea {
 button {
     background-color: #C2581F;
     color: #fff;
-    padding: 10px 20px;
+    padding: 1vw 2vw;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 button:hover {
@@ -145,5 +147,9 @@ button:hover {
 
     .header-navigation nav {
         column-gap: 2.5vw;
+    }
+
+    .form-group {
+        margin-bottom: 1vw;
     }
 }
