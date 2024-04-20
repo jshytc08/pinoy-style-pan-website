@@ -92,7 +92,9 @@ body {
     background-color: #f6e8d1;
     border-radius: 10px;
     padding: 2vw;
+    margin: 0 20vw;
     margin-bottom: 2vw;
+    text-align: center;
 }
 
 .location h3 {
