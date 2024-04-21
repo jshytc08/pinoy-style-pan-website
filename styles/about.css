@@ -112,6 +112,17 @@ body {
 @media screen and (max-width: 680px) {
     
     .header-container {
+        column-gap: 1.5rem;
+    }
+
+    .header-navigation nav {
+        column-gap: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .header-container {
         column-gap: 1rem;
     }
 
