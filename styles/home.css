@@ -49,6 +49,7 @@ body {
 
 .header-navigation li a:hover {
     color: #C2581F;
+    text-decoration: underline;
 }
 
 .header-cta {
@@ -69,6 +70,7 @@ body {
 
 .header-cta .button:hover {
     background-color: #3F1B11;
+    text-decoration: underline;
 }
 
 .hero {
@@ -110,6 +112,7 @@ body {
 .btn-explore:hover {
     background-color: #f6e8d1;
     color: #3F1B11;
+    text-decoration: underline;
 }
 
 .featured-items {
@@ -166,6 +169,7 @@ body {
 
 .item-btn:hover {
     background-color: #3F1B11;
+    text-decoration: underline;
 }
 
 .newsletter {
@@ -210,7 +214,7 @@ body {
     border-radius: 5px;
     background-color: #C2581F;
     color: #fff;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -218,6 +222,7 @@ body {
 .newsletter-form button:hover {
     background-color: #f6e8d1;
     color: #3F1B11;
+    text-decoration: underline;
 }
 
 .footer {
@@ -239,6 +244,7 @@ body {
 
 .social-link:hover {
     color: #C2581F;
+    text-decoration: underline;
 }
 
 .copyright {
@@ -256,6 +262,7 @@ body {
 
 .legal-links a:hover {
     color: #C2581F;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 820px) {

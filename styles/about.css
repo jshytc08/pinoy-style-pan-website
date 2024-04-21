@@ -49,6 +49,7 @@ body {
 
 .header-navigation li a:hover {
     color: #C2581F;
+    text-decoration: underline;
 }
 
 .header-cta {
@@ -69,6 +70,7 @@ body {
 
 .header-cta .button:hover {
     background-color: #3F1B11;
+    text-decoration: underline;
 }
 
 .about-us {
