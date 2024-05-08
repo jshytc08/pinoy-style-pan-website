@@ -100,11 +100,11 @@ body {
 }
 
 .btn-explore {
-    padding: 1.5vw 3vw;
+    padding: 1vw 2vw;
     background-color: #C2581F; 
     color: #fff;
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }
@@ -218,6 +218,11 @@ body {
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
 }
 
 .featured-items {
