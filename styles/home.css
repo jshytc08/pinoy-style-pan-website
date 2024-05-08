@@ -225,6 +225,12 @@ body {
     to {opacity: 1}
 }
 
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px;
+    }
+}
+
 .featured-items {
     background-color: #f6e8d1;
     padding: 2vw;
