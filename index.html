@@ -34,7 +34,91 @@
         <div class="hero-content">
             <h1>Welcome to Pinoy Style Pan</h1>
             <p>Where Flavor Meets Fun!</p>
-            <a href="#" class="btn-explore">Explore Now</a>
+
+            <button id="btn-exp" class="btn-explore">Explore Now</button>
+            <div id="explore-modal" class="image-modal">
+                <div class="explore-content">
+                    <span class="explore-close">&times;</span>
+
+                    <div class="explore-slideshow">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="images/Custard.jpg" style="width:100%">
+                            <div class="text">Custard Pie</div>
+                        </div>
+                          
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="images/Creamy Spinach.jpg" style="width:100%">
+                            <div class="text">Creamy Spinach Pie</div>
+                        </div>
+                          
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="images/chowfan.jpg" style="width:100%">
+                            <div class="text">Chowfan Pie</div>
+                        </div>
+                          
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                    </div>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+
+                    <script>
+                        let slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                            showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                            showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                            let i;
+                            let slides = document.getElementsByClassName("mySlides");
+                            let dots = document.getElementsByClassName("dot");
+                            if (n > slides.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = slides.length}
+                            for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none";  
+                            }
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <script>
+                let imageModal= document.getElementById("explore-modal");
+                let btnExplore = document.getElementById("btn-exp");
+                let closeExplore = document.getElementsByClassName("explore-close")[0];
+
+                btnExplore.onclick = function() {
+                    imageModal.style.display = "block";
+                }
+
+                closeExplore.onclick = function() {
+                    imageModal.style.display = "none";
+                }
+
+                window.onclick = function(event) {
+                    if(event.target == imageModal) {
+                        imageModal.style.display = "none";
+                    }
+                }
+            </script>
         </div>
     </section>
 
