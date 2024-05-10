@@ -77,7 +77,7 @@ body {
     background-image: url('/images/page1.png');
     background-size: cover;
     background-position: center;
-    height: 50vw;
+    height: 30vw;
     width: auto;
     text-align: left;
     color: #fff;
@@ -85,18 +85,17 @@ body {
 
 .hero-content {
     padding: 2vw;
-    padding-top: 18vw;
+    padding-top: 8.5vw;
     color: #f6e8d1;
 }
 
 .hero-content h1 {
     font-size: 4vw;
-    margin-bottom: 2vw;
 }
 
 .hero-content p {
     font-size: 2vw;
-    margin-bottom: 2.5vw;
+    margin-bottom: 1vw;
 }
 
 .btn-explore {
@@ -158,6 +157,10 @@ body {
     margin: auto;
 }
 
+.mySlides img {
+    border-radius: 1vw;
+}
+
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -167,7 +170,7 @@ body {
     margin-top: -22px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.8vw;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -184,7 +187,7 @@ body {
 
 .text {
     color: #f2f2f2;
-    font-size: 15px;
+    font-size: 1.8vw;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -194,7 +197,7 @@ body {
 
 .numbertext {
     color: #f2f2f2;
-    font-size: 12px;
+    font-size: 1.2vw;
     padding: 8px 12px;
     position: absolute;
     top: 0;
@@ -202,8 +205,8 @@ body {
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 1.1vw;
+    width: 1.1vw;
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
@@ -223,12 +226,6 @@ body {
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-}
-
-@media only screen and (max-width: 300px) {
-    .prev, .next, .text {
-        font-size: 11px;
-    }
 }
 
 .featured-items {
