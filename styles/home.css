@@ -104,14 +104,24 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 1.8vw;
-    border-radius: 10px;
+    border-radius: 1.1vw;
     transition: background-color 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-align: center;
+    box-shadow: 0 0.7vw #464646;
 }
 
 .btn-explore:hover {
     background-color: #f6e8d1;
     color: #3F1B11;
-    text-decoration: underline;
+}
+
+.btn-explore:active {
+    background-color: #f6e8d1;
+    box-shadow: 0 0.3vw #313131;
+    transform: translateY(0.4vw);
 }
 
 .image-modal {
@@ -137,10 +147,10 @@ body {
 
 .explore-close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 1vw;
+    right: 2vw;
     color: #f1f1f1;
-    font-size: 40px;
+    font-size: 3.5vw;
     font-weight: bold;
     transition: 0.3s;
 }
