@@ -73,3 +73,10 @@ function displayCart(a){
         }).join('');
     }
 }
+
+var orderNow = document.getElementById('payment');
+window.onclick = function(event) {
+    if (event.target == orderNow) {
+        orderNow.style.display = "none";
+    }
+}
