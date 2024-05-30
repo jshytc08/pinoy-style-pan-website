@@ -32,7 +32,7 @@ document.getElementById('root').innerHTML = categories.map((item)=>
         <div class='bottom'>
         <p>${title}</p>
         <h2>Php ${price}.00</h2>`+
-        "<button onclick='addtocart("+(i++)+")'>Add to cart</button>"+
+        "<button class='btn2' onclick='addtocart("+(i++)+")'>Add to cart</button>"+
         `</div>
         </div>`
     )
