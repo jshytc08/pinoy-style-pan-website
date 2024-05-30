@@ -74,13 +74,22 @@ body {
 }
 
 .hero {
-    background-image: url('/images/page1.png');
-    background-size: cover;
-    background-position: center;
+    background-color: #3F1B11;
     height: 30vw;
     width: auto;
     text-align: left;
     color: #fff;
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+
+.hero .pie-img {
+    padding-top: 1.7vw;
+}
+
+.hero .pie-img img {
+    width: 100%;
+    height: auto;
 }
 
 .hero-content {
