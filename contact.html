@@ -56,9 +56,14 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit" onclick="clickMessage()">Send Message</button>
             </form>
         </div>
+        <script>
+            function clickMessage(){
+                window.alert('Thank you for reaching out to us. We will respond as soon as possible.');
+            }
+        </script>
     </section>
 </body>
 </html>
